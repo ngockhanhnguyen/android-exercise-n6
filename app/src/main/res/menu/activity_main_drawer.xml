@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trangchu"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/nav_theloai"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Thể loại" />
+        <item
+            android:id="@+id/nav_timkiem"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="Tìm kiếm truyện" />
+        <item
+            android:id="@+id/nav_yeuthich"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Truyện yêu thích" />
+        <item
+            android:id="@+id/nav_datai"
+            android:icon="@android:drawable/stat_sys_download_done"
+            android:title="Truyện đã tải" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_chiase"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Chia sẻ" />
+            <item
+                android:id="@+id/nav_gui"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Gửi" />
+            <item
+                android:id="@+id/nav_trogiup"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Trợ giúp và phản hồi" />
+        </menu>
+    </item>
+
+</menu>

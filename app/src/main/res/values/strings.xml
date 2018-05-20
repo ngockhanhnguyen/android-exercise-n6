@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppTruyenTranh</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Truyện Tranh</string>
+    <string name="nav_header_subtitle">truyentranh@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_save">Lưu truyện</string>
+</resources>
